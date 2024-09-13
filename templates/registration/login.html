@@ -1,0 +1,9 @@
+<!-- templates/registration/login.html -->
+<h2>Log In</h2>
+<form method="post">
+  {% csrf_token %}
+  {{ form }}
+<!-- <input type="text" name="username" class="form-control" required>
+  <input type="text" name="Password" class="form-control" required> -->
+  <button type="submit">Log In</button>
+</form>
